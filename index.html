@@ -126,17 +126,70 @@
         }
 
         @media (max-width: 600px) {
+            body {
+                padding: 15px;
+            }
+
             .container {
                 padding: 30px 20px;
+                border-radius: 20px;
             }
 
             h1 {
-                font-size: 2em;
+                font-size: 1.8em;
+            }
+
+            .subtitle {
+                font-size: 0.9em;
+                margin-bottom: 30px;
+            }
+
+            .server-info {
+                padding: 20px;
+                margin: 25px 0;
+            }
+
+            .info-item {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 5px;
+                margin: 15px 0;
+            }
+
+            .info-value {
+                font-size: 0.95em;
+                word-break: break-all;
             }
 
             .btn-join {
-                padding: 15px 40px;
-                font-size: 1.1em;
+                padding: 14px 35px;
+                font-size: 0.95em;
+                width: 100%;
+                margin: 20px 0;
+            }
+
+            .instructions {
+                padding: 20px;
+                border-radius: 14px;
+            }
+
+            .instructions h3 {
+                font-size: 1em;
+            }
+
+            .instructions ol {
+                margin-left: 15px;
+            }
+
+            .instructions li {
+                font-size: 0.95em;
+                margin: 8px 0;
+            }
+
+            .note {
+                padding: 12px;
+                font-size: 0.85em;
+                border-radius: 14px;
             }
         }
     </style>
@@ -174,10 +227,6 @@
                 <li>Ya puedes conectarte y comenzar a jugar</li>
             </ol>
         </div>
-        <!--
-        <div class="note">
-            <strong>Nota:</strong> Se requiere Minecraft Bedrock Edition (disponible en Windows 10/11, Android, iOS, Xbox, PlayStation o Nintendo Switch)
-        </div> -->
     </div>
 </body>
 </html>
